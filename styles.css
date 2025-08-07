@@ -130,3 +130,84 @@ body {
   .canvas { width: 100%; padding: 20px; }
 }
 
+/* =========================
+   Section Music (node 3:2)
+   ========================= */
+.section-music {
+  position: relative;
+  width: 100%;
+  background: #f3f3f3;
+  min-height: 820px;
+  padding: 120px 0 160px;
+}
+
+.music-ellipse-large {
+  position: absolute;
+  left: 50%;
+  top: 306px;
+  width: 582.398px;
+  height: 471.548px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.music-wrapper {
+  position: relative;
+  width: 519px;
+  margin: 0 auto;
+  background: #e2e2e2;
+  border-radius: 87.734px;
+  box-shadow: 0 35px 10.4px rgba(0,0,0,0), 0 44.61px 59.481px rgba(0,0,0,0.03);
+  padding: 22px 21px;
+}
+
+.music-frame {
+  background: rgba(255,255,255,0.93);
+  border-radius: 70px;
+}
+
+.music-content {
+  display: flex;
+  gap: 16.357px;
+  padding: 40px;
+}
+
+.music-cover {
+  width: 141.398px;
+  height: 140.169px;
+  border-radius: 33px;
+  box-shadow: 0 -3px 4px rgba(0,0,0,0.25), 0 44.61px 59.481px rgba(0,0,0,0.03);
+  background-image: url('assets/a024d486f3da4cb41e3c66abd019dddd0ed4123b.png'), url('assets/4784cf9dadb6abf90178d660ca1ebbaa4e29be78.png');
+  background-size: cover, 100% 119.79%;
+  background-position: 50% 50%, 0% 75.2%;
+}
+
+.music-texts { width: 252.184px; padding: 17px 0; }
+.music-title-row { display: flex; align-items: center; gap: 10px; }
+.music-title { font: 700 22.74px Inter, ui-sans-serif, system-ui; color: rgba(0,0,0,0.2); letter-spacing: -0.9096px; line-height: 1.18; }
+.icon-24 { width: 24px; height: 24px; }
+
+.music-lyrics { margin-top: 8px; }
+.music-lyrics p { margin: 0 0 4px; font: 600 28.74px Inter, ui-sans-serif, system-ui; letter-spacing: -1.1496px; line-height: 1.18; background-clip: text; color: #000; }
+
+.music-controls {
+  display: flex; align-items: center; gap: 12px; margin-top: 11px; height: 157px;
+}
+.controls-left, .controls-right {
+  background: #ffffff63;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controls-left { flex: 1; gap: 62.36px; padding: 53.53px 33.53px 46.53px; }
+.controls-right { width: 207px; gap: 16.357px; padding: 53.53px 33.53px 46.53px; flex-direction: column; }
+.icon-36 { width: 36.676px; height: 36.68px; }
+.icon-41 { width: 36.685px; height: 41.265px; }
+
+.music-ellipse-small {
+  position: absolute; left: calc(50% + 228.52px); top: 434.52px; width: 31.949px; height: 31.949px;
+}
+.music-float.left { position: absolute; left: calc(50% - 225.86px); top: 553.51px; }
+.music-float.right { position: absolute; left: calc(50% - 126.82px); top: 553.51px; }
+
