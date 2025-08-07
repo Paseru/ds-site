@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sidebar-left-arrow" opacity="0.4">
+<path id="Vector" d="M7.32202 12.8139C7.32202 9.7809 9.78072 7.3222 12.8137 7.3222H31.1192C34.1522 7.3222 36.6108 9.7809 36.6108 12.8139V31.1194C36.6108 34.1524 34.1522 36.611 31.1192 36.611H12.8137C9.78072 36.611 7.32202 34.1524 7.32202 31.1194V12.8139Z" stroke="var(--stroke-0, black)" stroke-width="3.6611" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M16.4755 7.3222V36.611" stroke="var(--stroke-0, black)" stroke-width="3.6611"/>
+<path id="Vector_3" d="M28.3741 18.3055L24.713 21.9666L28.3741 25.6277" stroke="var(--stroke-0, black)" stroke-width="3.6611" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
